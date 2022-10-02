@@ -1,0 +1,151 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	scroll-behavior: smooth;
+}
+
+header {
+	background: black;
+	color: #eaeaea;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.judul {
+	margin-right: auto;
+	margin-left: 10px;
+	color: red;
+}
+
+ul {
+	display: flex;
+	padding: 15px;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	transition: all .5s ease 0s;
+}
+
+a:hover {
+	color: red;
+}
+
+.btn-cta {
+	margin-right: 10px;
+	border: none;
+	font-size: 20px;
+	padding: 5px 12px;
+	background: red;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.description {
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.img-face {
+	width: 100%;
+	max-width: 500px;
+	max-height: auto;
+	padding: 10px;
+}
+
+.about {
+	background: black;
+	color: #eaeaea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.card-item {
+	text-align: center;
+	background: red;
+	color: #eaeaea;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1.0);
+}
+
+.hobi {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.skill {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+footer {
+	background: black;
+	padding: 10px;
+	margin-top: 60px;
+	color: #eaeaea;
+}
+
+@media screen and (max-width: 500px){
+	nav {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		background: black;
+		z-index: 9;
+	}
+
+	footer {
+		margin-bottom: 70px;
+	}
+
+	header {
+		padding: 10px;
+	}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Website Pribadi</title>
+</head>
+<body>
+
+	<header>
+		<h1 class="judul">EDAM</h1>
+		<nav>
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="mailto:kcr47385@gmail.com">CONTACT</a></li>
+			</ul>
+		</nav>
+		<button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+	</header>
+	<div class="container">
+		<div class="home">
+			<p class="title">Hello, My name is I Made Ariya Putra</p>
+			<p class="description">Web Developer</p>
+			<img src="asset/img/face.jpg" alt="face" class="img-face">
+		</div>
+	</div>
+	<div class="paralax">
+		<div class="about" id="about">
+			<p class="title">Hello, My name is I Made Ariya Putra</p>
+			<p class="description">I am a web developer</p>
+		</div>
+		<div class="container">
+			<div class="card">
+				<div class="card-item">
+					<img src="asset/img/hobi.jpg" alt="hobi" class="hobi">
+					<p class="card-title">Hobi saya adalah bermain bulutangkis</p>
+					<p class="card-description">Bulutangkis dapat membuat tubuh saya sehat</p>
+				</div>
+				<div class="card-item">
+					<img src="asset/img/skill.jpg" alt="skill" class="skill">
+					<p card-title>Skill saya</p>
+					<p class="card-description">Saya sedang mempelajari html, css dan javascript</p>
+				</div>							
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p class="title">&copy Ariya website 2022</p>
+	</footer>
+	
+	<script>
+		function redirInstagram() {
+			window.location.href = "https://instagram.com/mdeariya_"
+		}
+	</script>
+</body>
+</html>
